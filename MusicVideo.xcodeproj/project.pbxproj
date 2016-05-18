@@ -97,12 +97,10 @@
 		5F92CA241CEC5C7B00129024 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				5F92CA251CEC5C7B00129024 /* AppDelegate.swift */,
-				5F92CA271CEC5C7B00129024 /* ViewController.swift */,
-				5F92CA291CEC5C7B00129024 /* Main.storyboard */,
-				5F92CA2C1CEC5C7B00129024 /* Assets.xcassets */,
-				5F92CA2E1CEC5C7B00129024 /* LaunchScreen.storyboard */,
-				5F92CA311CEC5C7B00129024 /* Info.plist */,
+				5F92CA561CEC606300129024 /* Supporting Files */,
+				5F92CA531CEC5FEF00129024 /* Model */,
+				5F92CA541CEC600100129024 /* Controller */,
+				5F92CA551CEC602E00129024 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				5F92CA471CEC5C7B00129024 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		5F92CA531CEC5FEF00129024 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5F92CA541CEC600100129024 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F92CA271CEC5C7B00129024 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5F92CA551CEC602E00129024 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F92CA2E1CEC5C7B00129024 /* LaunchScreen.storyboard */,
+				5F92CA291CEC5C7B00129024 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5F92CA561CEC606300129024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F92CA2C1CEC5C7B00129024 /* Assets.xcassets */,
+				5F92CA311CEC5C7B00129024 /* Info.plist */,
+				5F92CA251CEC5C7B00129024 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
